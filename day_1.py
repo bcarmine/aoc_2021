@@ -11,7 +11,7 @@ def cumulative_increase_counter(a: typing.Tuple[int, int], b: int) -> typing.Tup
 
 
 if __name__ == "__main__":
-    with open("day_1.csv") as csv_file:
+    with open("data/day_1.csv") as csv_file:
         reader = csv.DictReader(csv_file)
         measurements = []
         for row in reader:
